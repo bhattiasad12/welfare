@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		
+		#p1{
+			color:red;
+		}
+
+		p {
+			color:blue;
+			background-color: green; 
+		}
+
+		p.p1class{
+
+			color:orange !important;
+			background-color: yellow; 
+
+		}
+
+		p:hover{
+
+			background-color:purple;
+		}
+
+		p::first-letter{
+			font-size:32px;
+		}
+
+		input[type="text"]{
+
+			width:800px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<p>This is paragraph</p>
+
+	<p id='p1' class='p1class' style='color:pink	'>This is paragraph</p>
+
+
+	<p id='p2'>This is paragraph</p>
+	<p class='p1class p2class p3class'>This is paragraph</p>
+	<p class='p2class'>This is paragraph</p>
+	<p class='p3class'>This is paragraph</p>
+	<p>This is paragraph</p>
+	<p>This is paragraph</p>
+
+	<div class='p1class'>
+		this is div
+	</div>
+
+	<input type="text" />
+	<input type="password" />
+	<input type="button" />
+
+</body>
+</html>

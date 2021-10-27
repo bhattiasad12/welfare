@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div>
+		
+		<form method="get" action="add_student.php?student_name=test" id="form1">
+			<input type="text" id="student_name" name="student_name" value=''>
+			<input type="text" id="email" value=''>
+			<input type="text" id="phone"  value=''>
+			
+			<input type="button" value="Add" onclick="AjaxCall();" />
+		</form>
+
+	</div>
+	<div>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Phone</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody id="studentbody">
+				
+
+			</tbody>
+		</table>
+
+
+	</div>
+		<script type="text/javascript">
+
+			var arr = new Array;
+			//var a = '';
+
+			function AjaxCall(){
+
+				xmlhttp = new XMLHttpRequest();
+
+				xmlhttp.onload = function() {
+
+					studentInfo = JSON.parse(this.responseText);
+					AddStudent(studentInfo);
+					
+				};
+				xmlhttp.open("POST", "add_student.php");
+				xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+				name = document.getElementById('student_name').value;
+				email = document.getElementById('email').value;
+				phone = document.getElementById('phone').value;
+				
+				xmlhttp.send("name="+name+"&email="+email+"&phone="+phone);
+				
+			}
+			function AddStudent(studentInfo){
+
+
+				
+
+
+				tbody = document.getElementById('studentbody');
+				
+				totaltr = tbody.getElementsByTagName('tr');
+				tr = document.createElement('tr');
+				
+				td1 = document.createElement('td');
+				td1.innerHTML = studentInfo.user_id;
+
+				tr.appendChild(td1);
+
+
+				td2 = document.createElement('td');
+				td2.innerHTML  = studentInfo.name;
+
+
+				tr.appendChild(td2);
+
+				td3 = document.createElement('td');
+				td3.innerHTML  = studentInfo.email;
+				tr.appendChild(td3);
+
+				td3 = document.createElement('td');
+				td3.innerHTML  = studentInfo.phone;
+				tr.appendChild(td3);
+
+				td4 = document.createElement('td');
+				btn = document.createElement('input');
+				btn.type = 'button';
+				btn.value = 'Delete';
+
+				btn.onclick = function(){DeleteCall(btn)};
+				btn.setAttribute('user_id',studentInfo.user_id);
+				td4.appendChild(btn);
+
+				tr.appendChild(td4);
+				tbody.appendChild(tr);
+
+
+			}
+
+
+			function DeleteRow(obj){
+
+					//debugger;
+					user_id = obj.getAttribute("user_id");
+					obj.parentNode.parentNode.remove();
+					console.log(user_id);
+
+			}
+
+			function DeleteCall(obj){
+
+				user_id = obj.getAttribute("user_id");
+				xmlhttp = new XMLHttpRequest();
+
+				xmlhttp.onload = function() {
+
+					//studentInfo = JSON.parse(this.responseText);
+					//debugger;
+					info = JSON.parse(this.responseText);
+					if(info.code == "0")
+						DeleteRow(obj);
+					
+				};
+				xmlhttp.open("GET", "delete_student.php?user_id="+user_id);
+				xmlhttp.send();
+				//xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+
+			}
+
+			function fillData()
+			{
+
+				document.getElementById('student_name').value = "test";
+				document.getElementById('email').value = "test@ets.com";
+				document.getElementById('phone').value = "test";
+			}
+			
+		</script>
+</body>
+</html>

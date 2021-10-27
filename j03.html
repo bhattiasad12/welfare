@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div>
+		
+		<input type="button" id="btn3" value="Print" onclick="switchcolor()" />
+
+		<br/>
+
+		<input type="color" id="colorvalue" />
+		<input type="button" id="btn1" value="change div 1" onclick="document.getElementById('div1').style.backgroundColor = document.getElementById('colorvalue').value"/>
+		<input type="button" id="btn2" value="change div 2"  onclick="document.getElementById('div2').style.backgroundColor = document.getElementById('colorvalue').value" />
+
+		<div id="div1" style="width:150px;height:50px;background-color:red">fsdfs</div>
+		<div id="div2" style="width:150px;height:50px;background-color:blue">etere</div>
+
+		<div id="tablediv"></div>
+	</div>
+		<script type="text/javascript">
+			
+
+			function switchcolor(){
+			
+			//debugger;			
+			temp = document.getElementById('div1').style.backgroundColor;
+			
+			document.getElementById('div1').style.backgroundColor=document.getElementById('div2').style.backgroundColor;
+			
+			document.getElementById('div2').style.backgroundColor=temp;
+
+			
+						}
+						
+			
+
+			
+		</script>
+</body>
+</html>

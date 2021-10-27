@@ -1,0 +1,9 @@
+<?php
+
+
+define("WEBSITE_NAME","");
+
+define("USER_TYPE_ADMIN","1");
+define("USER_TYPE_EMPLOYEE","2");
+define("USER_TYPE_APPLICANT","4");
+define("USER_TYPE_DONOR","8");

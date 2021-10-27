@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div>
+		<input type="number" id="num1" />
+		<input type="number" id="num2" />
+		
+		<input type="button" id="btn3" value="Print" onclick="swapnumber()" />
+
+		
+	</div>
+		<script type="text/javascript">
+			
+
+			function swapnumber(){
+				
+				debugger;
+				a = parseInt(document.getElementById('num1').value);
+				b = parseInt(document.getElementById('num2').value);
+			
+				a = a+b;
+				b = a-b;
+				a = a-b;
+
+				document.getElementById('num1').value= a;
+				document.getElementById('num2').value= b;
+				}
+						
+			
+
+			
+		</script>
+</body>
+</html>

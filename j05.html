@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div>
+		<input type="number" id="num1" onkeyup="isEnterKey(event,this)" />
+		
+		
+		<input type="button" id="btn3" value="Print" onclick="save()" />
+		
+		<input type="button" id="btn4" value="Check Min" onclick="checkmin()" />
+		<input type="button" id="btn4" value="Check Max" onclick="checkmax()" />
+
+		<input type="button" id="btn4" value="Sort" onclick="sortValue()" />
+
+
+
+
+		<div id="shownum"></div>
+	</div>
+		<script type="text/javascript">
+
+			var arr = new Array;
+			//var a = '';
+
+			function display(){
+
+				document.getElementById('shownum').innerHTML = "";
+				var ch = "";
+				for(i=0;i<arr.length;i++){
+
+
+					div.innerHTML += ch + arr[i];
+					ch = " , ";
+				}
+			}
+
+			function save(){
+
+				
+				div = document.getElementById('shownum');
+				
+				arr[arr.length] = parseInt(document.getElementById('num1').value);
+
+				display();
+			}
+
+			function isEnterKey(event,obj){
+
+				if(event.keyCode == 13){
+					save();
+				   obj.value = "";
+				}
+
+
+			}
+
+
+			function checkmin(){
+
+				
+				minValue  =  arr[0];
+
+				for(i=1;i<arr.length;i++){
+
+					if(arr[i] < minValue  )
+						minValue = arr[i];
+				}
+
+
+				alert("Min value = "+ minValue);
+			}
+			
+			function checkmax(){
+
+				
+				maxValue  =  arr[0];
+
+				for(i=1;i<arr.length;i++){
+
+					if(arr[i] > maxValue  )
+						maxValue = arr[i];
+				}
+
+
+				alert("Max value = "+ maxValue);
+			}
+
+
+			function sortValue(){
+
+
+
+				arr.sort();
+				display();
+			}
+			
+
+			
+		</script>
+</body>
+</html>

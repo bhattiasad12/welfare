@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div>
+		<input type="number" id="number" />
+		<input type="time" id="time1" onclick="" />
+		<input type="button" id="btn3" value="Print" onclick="printtable()" />
+
+		<div id="tablediv"></div>
+	</div>
+		<script type="text/javascript">
+			
+
+			function printtable(){
+						
+						num = document.getElementById("number").value;
+
+						document.getElementById('tablediv').innerHTML= "";
+						for(i=1;i<=10;i++){
+
+							result = i*num;
+	document.getElementById('tablediv').innerHTML += num + " * " + i + " = " + result + "<br/>";
+			/*document.getElementById('tablediv').innerHTML += " * ";
+			document.getElementById('tablediv').innerHTML += i;
+			document.getElementById('tablediv').innerHTML += " = ";
+			document.getElementById('tablediv').innerHTML += result +"<br/>";*/
+						}
+						//document.getElementById('btn2').addEventListener("click", clickme3);;
+			}
+
+			
+		</script>
+</body>
+</html>

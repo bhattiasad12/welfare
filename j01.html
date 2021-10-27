@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+div
+		p
+
+div2
+	
+		p2
+
+
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div>
+		<input type="button" id="btn1" value="Click me" onclick="clickme()" />
+		<input type="button" id="btn2" value="Click me 2" />
+		<input type="button" id="btn3" value="Remvoe" onclick="RemoveEvent()" />
+	</div>
+		<script type="text/javascript">
+			
+
+			function clickme(){
+						document.getElementById('btn2').addEventListener("click", clickme2);
+						//document.getElementById('btn2').addEventListener("click", clickme3);;
+			}
+
+			function clickme2(){
+				alert("Hello");
+			}
+
+			function clickme3(){
+				alert("Hello 3");
+			}
+
+			function RemoveEvent(){
+						document.getElementById('btn2').removeEventListener("click", clickme2);
+
+			}
+		</script>
+</body>
+</html>

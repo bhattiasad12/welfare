@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		ul,li{
+			list-style-type: none;
+		}
+		ul{
+			width: 350px
+		}
+		li{
+			display: inline;
+			width: 250px;
+			border:1px solid green;
+		}
+
+		li ul{
+			display:none;
+		}
+
+		
+		ul li ul {
+		  visibility: hidden;
+		  opacity: 0;
+		  position: absolute;
+		  transition: all 0.5s ease;
+		  margin-top: 1rem;
+		  left: 0;
+		  display: none;
+		}
+
+		ul li:hover > ul,
+		ul li ul:hover {
+		  visibility: visible;
+		  opacity: 1;
+		  display: block;
+		}
+
+		ul li ul li {
+		  clear: both;
+		  width: 100%;
+		}
+
+	
+	</style>
+</head>
+<body>
+
+<ul>
+	<li>
+		<a href='electronic.php'>Electronic Devices</a>
+			<ul>
+				<li><a href='#'>Mobile</a>
+					<ul>
+						<li><a href='#'>Samsung</a></li>
+						<li><a href='#'>Nokia</a></li>
+						<li><a href='#'>Iphone</a></li>
+					</ul>
+				</li>
+
+				<li>Table</li>
+				<li>PC</li>
+				<li>Gamin Console</li>
+
+			</ul>
+	</li>
+	<li>
+		Toys
+	</li>
+	<li>
+		Fashion
+	</li>
+
+</ul>
+</body>
+</html>
