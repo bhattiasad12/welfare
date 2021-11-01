@@ -147,7 +147,7 @@ height: 100%;
   <body>
         <?php
 
-        //if($user_type == 1)
+        // if($user_type == 1)
         require_once("treecontrol.php");
         
         ?>

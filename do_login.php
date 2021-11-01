@@ -7,6 +7,7 @@
 
 	//die(print_r($_POST));
 	if(isset($_POST['email']) && $_POST['password']){
+		// session_start();
 
 
 		$email = $_POST['email'];
@@ -30,6 +31,8 @@
 			$_SESSION['user_name'] = $result['name'];
 			$_SESSION['email'] = $result['email'];
 			$_SESSION['user_type'] = $result['user_type'];
+			$_SESSION['phone'] = $result['phone'];
+			                        
 
 
 

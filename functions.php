@@ -26,7 +26,6 @@ function login($email , $password){
 
 function getTreeControl($user_id){
 
-		//echo "here...";
 		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
 
@@ -83,8 +82,31 @@ $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 		return $result;
 
 }
-
-
-
-
-?>
+function UpdateProfileData($user_id,$name,$email,$phone){
+    //  echo "in function ";
+	$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	$sql = " UPDATE 
+	users 
+  SET
+	users.`name`='$name',
+	users.`email`='$email',
+	users.`phone` ='$phone'
+  WHERE users.`user_id` = '$user_id' ;
+  
+  ";
+	 echo $sql;
+	 
+			$rs = mysqli_query($con,$sql);
+			$count = mysqli_num_rows($rs);
+	
+	
+			$result = array();
+			for($i=0;$i<$count;$i++){
+	
+				$result[] = mysqli_fetch_array($rs);
+			}
+	
+           // print_r($result);
+			return $result;
+	
+	}

@@ -2,6 +2,7 @@
 session_start();
 
 define("WEBSITE_NAME","TESt WEbsite");
+define("WEBSITE_URL","");
 define("DB_NAME","welfare");
 define("DB_USER","root");
 define("DB_HOST","localhost");

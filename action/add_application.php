@@ -13,7 +13,7 @@ if($_POST['name'] == "" || $_POST['nic'] == ""){
 
 
 
-die();
+// die();
 
 
 ?>
