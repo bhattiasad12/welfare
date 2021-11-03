@@ -117,7 +117,24 @@ function UpdateProfileData($user_id,$name,$email,$phone){
 	 
 			$rs = mysqli_query($con,$sql);
 			return true;
-           // print_r($result);
-		
-	
-}
+    
+	}
+
+	function AddData($table, $data){
+
+		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+
+		$keys = "";
+		$values = "";
+		$ch = "";
+		foreach($data as $key => $value){
+
+			$keys = $ch."`$key`";
+			$values = $ch."'$value'";
+			$ch = ",";
+		}
+
+
+		$sql = "insert into $table ($keys) value ($values)";
+
+	}

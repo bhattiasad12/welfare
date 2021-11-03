@@ -30,20 +30,20 @@
 			<div class="sign-up-htm">
 				<form action="action/do_register.php" method="POST">
 				<div class="group">
-					<label for="user" class="label">Username</label>
-					<input id="user" name="userId" type="text" class="input">
+					<label for="name" class="label">Username</label>
+					<input id="name" name="name" type="text" class="input">
 				</div>
 				<div class="group">
-					<label for="pass" class="label">Password</label>
-					<input id="pass" name="pass" type="password" class="input" data-type="password">
+					<label for="password" class="label">Password</label>
+					<input id="password" name="password" type="password" class="input" data-type="password">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Repeat Password</label>
-					<input id="pass" name="repeatPassword" type="password" class="input" data-type="password">
+					<input id="repeat_password" name="repeat_password" type="password" class="input" data-type="password">
 				</div>
 				<div class="group">
-					<label for="pass" class="label">Email Address</label>
-					<input id="pass" name="emailAddress" type="text" class="input">
+					<label for="email" class="label">Email Address</label>
+					<input id="email" name="email" type="text" class="input">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">User Type</label>

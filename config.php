@@ -14,5 +14,6 @@ define("USER_TYPE_EMPLOYEE","2");
 define("USER_TYPE_APPLICANT","4");
 define("USER_TYPE_DONOR","8");
 
+define("STATUS_ACTIVE","1");
 
 ?>
