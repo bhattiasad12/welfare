@@ -110,3 +110,14 @@ function UpdateProfileData($user_id,$name,$email,$phone){
 			return $result;
 	
 	}
+	function AddUsers($userInfo){
+
+		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	$sql = "INSERT INTO `users` (`email`,`password`,`name`,`user_type`) VALUE ('$userInfo[emailAddress]','$userInfo[pass]','$userInfo[userId]','$userInfo[usersType]')";
+	 
+			$rs = mysqli_query($con,$sql);
+			return true;
+           // print_r($result);
+		
+	
+}
