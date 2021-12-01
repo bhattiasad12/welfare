@@ -1,0 +1,13 @@
+2021-11-19 11:01:26---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:02:28---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:03:40---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:05:13---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:05:47---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:05:47---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:06:07---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:06:07---- ------ Here, in ACTION Applicaton screen ---- userid :1--, user_name:Admin
+2021-11-19 11:06:33---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-11-19 11:06:33---- ------ Here, in ACTION  userid :1--, user_name:Admin
+2021-11-19 11:06:37---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-11-19 11:06:37---- ------ Here, in ACTION  userid :1--, user_name:Admin
+2021-11-19 11:06:52---- ------ Here, in ACTION  :1--, user_name:Admin

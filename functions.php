@@ -6,13 +6,15 @@
 function login($email , $password){
 
 
+		error_log("--- before connection ---");
 		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
-
+		error_log("--- after connection ---");
 
 		$sql = "select * from users where email='$email' and password='$password' and status='1'";
 
 		//echo $sql;
+		QueryLog($sql);
 		$rs = mysqli_query($con,$sql);
 		$count = mysqli_num_rows($rs);
 
@@ -41,6 +43,7 @@ function getTreeControl($user_id){
 
 		//echo $sql;
 		//die();
+		QueryLog($sql);
 		$rs = mysqli_query($con,$sql);
 		$count = mysqli_num_rows($rs);
 
@@ -64,6 +67,7 @@ function GetData($sql){
 $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
 
+		QueryLog($sql);
 		$rs = mysqli_query($con,$sql);
 		$count = mysqli_num_rows($rs);
 
@@ -115,6 +119,7 @@ function UpdateProfileData($user_id,$name,$email,$phone){
 		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 	$sql = "INSERT INTO `users` (`email`,`password`,`name`,`user_type`) VALUE ('$userInfo[emailAddress]','$userInfo[pass]','$userInfo[userId]','$userInfo[usersType]')";
 	 
+	 		QueryLog($sql);
 			$rs = mysqli_query($con,$sql);
 			return true;
     
@@ -129,12 +134,37 @@ function UpdateProfileData($user_id,$name,$email,$phone){
 		$ch = "";
 		foreach($data as $key => $value){
 
-			$keys = $ch."`$key`";
-			$values = $ch."'$value'";
+			$keys .= $ch."`$key`";
+			$values .= $ch."'$value'";
 			$ch = ",";
 		}
 
 
 		$sql = "insert into $table ($keys) value ($values)";
+
+		/////////////////echo  $sql;
+		$rs = mysqli_query($con,$sql);
+		$id = mysqli_insert_id($con);
+		return $id;
+
+	}
+
+
+	function LogMsg($msg){
+
+		//die(LOG_PATH);
+		$date = date("Y-m-d H:i:s");
+		error_log($date."----".$msg."\r\n",3,LOG_PATH);
+		
+
+	}
+
+	function QueryLog($msg){
+
+		//die(LOG_PATH);
+		$date = date("Y-m-d H:i:s");
+		$fp = fopen(QUERY_LOG_PATH, "a");
+		fwrite($fp, $date."----".$msg."\r\n");
+		fclose($fp);
 
 	}

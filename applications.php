@@ -4,6 +4,15 @@
 
   //print_r($_SESSION);
 
+  LogMsg(" ------ Here, in Applicaton screen ---- userid :".$_SESSION['user_id']."--, user_name:".$_SESSION['user_name']);
+
+
+  //echo ini_get('display_errors');
+  //ini_set("display_errors","Off")
+
+  //echo date("Y-m-d H:i:s");
+  //phpinfo();
+  //die();
   ?>
   <html>
   <head>
@@ -174,10 +183,6 @@
           <input type="text" class="form-control" id="parent_name" name="parent_name" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-          <label for="mobile_number" class="form-label">Mobile Number</label>
-          <input type="text" class="form-control" id="mobile_number" name="mobile_number" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
           <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
         </div>
@@ -210,11 +215,10 @@
                   <input type='text' id='dependent_education[]' name='dependent_education[]'  onkeyup="CheckEnter(this,event)"/>
                 </td>
                 <td>
-                  <button type='button' class='form form-control btn-danger delete' value='Delete' />Delete</button> 
+                  <button type='button' class='form form-control btn-danger' value='Delete' />Delete</button> 
                 </td>
               </tr>
             </tbody>
-            
           </table>
         </div>
 
@@ -226,8 +230,6 @@
 
       </div>
     </form>
-
-
   </div>
 
 
@@ -266,19 +268,5 @@
           }
           //alert(obj)
         }
-
-
-
-
-    
-    $(document).on('click','.delete',function(){
-
-        //alert("Delete Button Click");
-        if($('.delete').length == 1)
-          return;
-
-        $(this).parent().parent().remove();
-
-    });
       </script>
       </html>

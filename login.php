@@ -1,3 +1,8 @@
+<?php
+
+error_log("--- Login file included  -----");
+
+?>
 <div class="login-wrap">
 	<div class="login-html">
 		
@@ -5,7 +10,7 @@
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
 		<div class="login-form">
 			<div class="sign-in-htm">
-				<form action="do_login.php" method="POST">
+				<form action="action/do_login.php" method="POST">
 				<div class="group">
 					<label for="user" class="label">Username</label>
 					<input id="email" type="text" class="input" name='email'>
@@ -28,7 +33,7 @@
 				</form>
 			</div>
 			<div class="sign-up-htm">
-				<form action="action/do_register.php" method="POST">
+				<form action="action/do_register.php" method="POST" enctype="multipart/form-data">
 				<div class="group">
 					<label for="name" class="label">Username</label>
 					<input id="name" name="name" type="text" class="input">
@@ -46,11 +51,15 @@
 					<input id="email" name="email" type="text" class="input">
 				</div>
 				<div class="group">
+					<label for="email" class="label">Profile Pic</label>
+					<input id="image" name="image" type="file" class="input" />
+				</div>
+				<div class="group">
 					<label for="pass" class="label">User Type</label>
 					<select name='usersType'>
 						<option value="">Select</option>
-						<option value="4">Doner</option>
-						<option value="8">Applicable</option>
+						<option value="4">Donor</option>
+						<option value="8">Appliccation</option>
 					</select>
 				</div>
 				<div class="group">
