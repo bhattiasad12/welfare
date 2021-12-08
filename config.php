@@ -20,4 +20,7 @@ define("USER_TYPE_DONOR","8");
 
 define("STATUS_ACTIVE","1");
 
+$SCREENINFO = array();
+$SCREENINFO['addapplication'] = "layout2.php";
+
 ?>

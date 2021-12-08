@@ -578,3 +578,134 @@
 			AND menu_rights.group_id = user_groups.group_id 
 			 
 			AND treecontrol.id = menu_rights.menu_id;
+2021-12-03 16:16:35----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-03 16:19:43----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = ''
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-03 16:19:54----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-03 16:28:47----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-03 16:29:11----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-03 16:29:56----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:02:51----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:04:37----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:04:44----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:07:14----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:17:25----SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
+			WHERE 
+			user_id = '1'
+			AND groups.id = user_groups.group_id 
+			AND menu_rights.group_id = user_groups.group_id 
+			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:48:27----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:48:31----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:48:33----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:48:36----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:51:04----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:52:19----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:54:01----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '2'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:54:55----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '2'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-06 15:55:15----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;

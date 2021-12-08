@@ -985,3 +985,29 @@
 2021-12-01 16:22:19---- ------ Here, in ACTION  :1--, user_name:Admin
 2021-12-01 16:22:19---- ------ Valiidation failed  userid :1--, user_name:Admin
 2021-12-01 16:22:19---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-03 16:16:25---- ------ index file included ---- 
+2021-12-03 16:16:35---- --- here in do login ----
+2021-12-03 16:16:35---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-03 16:16:35---- ---login function return ----
+2021-12-03 16:16:35---- USER Successfully login --- 1
+2021-12-03 16:17:15---- ------ index file included ---- 
+2021-12-03 16:19:54---- --- here in do login ----
+2021-12-03 16:19:54---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-03 16:19:54---- ---login function return ----
+2021-12-03 16:19:54---- USER Successfully login --- 1
+2021-12-06 15:02:44---- ------ index file included ---- 
+2021-12-06 15:02:51---- --- here in do login ----
+2021-12-06 15:02:51---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-06 15:02:51---- ---login function return ----
+2021-12-06 15:02:51---- USER Successfully login --- 1
+2021-12-06 15:48:31---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-06 15:53:47---- ------ index file included ---- 
+2021-12-06 15:54:01---- --- here in do login ----
+2021-12-06 15:54:01---- --- EMAIL :: employee , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-06 15:54:01---- ---login function return ----
+2021-12-06 15:54:01---- USER Successfully login --- 2
+2021-12-06 15:55:09---- ------ index file included ---- 
+2021-12-06 15:55:15---- --- here in do login ----
+2021-12-06 15:55:15---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-06 15:55:15---- ---login function return ----
+2021-12-06 15:55:15---- USER Successfully login --- 1

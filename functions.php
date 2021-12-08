@@ -30,14 +30,11 @@ function getTreeControl($user_id){
 
 		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
-
-
-		$sql = "SELECT treecontrol.* FROM user_groups , groups , menu_rights , treecontrol
-			WHERE 
-			user_id = '$user_id'
-			AND groups.id = user_groups.group_id 
-			AND menu_rights.group_id = user_groups.group_id 
-			 
+		$sql = "SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '$user_id'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
 			AND treecontrol.id = menu_rights.menu_id;";
 
 
@@ -53,9 +50,6 @@ function getTreeControl($user_id){
 
 			$result[] = mysqli_fetch_array($rs);
 		}
-
-
-
 		
 
 		//print_r($result);

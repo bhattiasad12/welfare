@@ -1,14 +1,15 @@
 <?php
   //  error_reporting(E_ALL);
 //ini_set("display_errors","yes");
-    
+   // echo "<pre>";
+   // print_r($_SESSION);
+
     $user_type = $_SESSION['user_type'];
     $user_id = $_SESSION['user_id'];
-   // echo "here...";
+   //die();
     $treecontrol = getTreeControl($user_id);
 
     // print_r($treecontrol);
-     //   echo $user_type;
     // die();
 ?>
 <nav class="main-menu">

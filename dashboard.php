@@ -2,6 +2,7 @@
 require_once('config.php');
 require_once('functions.php');
 
+  $user_type = $_SESSION['user_type'];
 //print_r($_SESSION);
 
 ?>
@@ -147,8 +148,8 @@ height: 100%;
     <div class='container-fluid'>
         <?php
 
-        //if($user_type == 1)
-        require_once("treecontrol.php");
+        //if($user_type == USER_TYPE_ADMIN)
+          require_once("treecontrol.php");
         
         ?>
     
