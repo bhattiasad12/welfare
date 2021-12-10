@@ -2,8 +2,8 @@
 session_start();
 
 define("WEBSITE_NAME","Test Website");
-define("WEBSITE_URL","http://welfare.uhfsolutions.com/");
-define("DOCUMENT_ROOT","C:/xampp/htdocs/welfare_uhf/");
+define("WEBSITE_URL","http://welfare.local/");
+define("DOCUMENT_ROOT","C:/xampp/htdocs/welfare/");
 define("DB_NAME","welfare");
 define("DB_USER","root");
 define("DB_HOST","localhost");

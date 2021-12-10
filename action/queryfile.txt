@@ -7,3 +7,29 @@
 2021-12-06 15:02:51----select * from users where email='admin@admin.com' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
 2021-12-06 15:54:01----select * from users where email='employee' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
 2021-12-06 15:55:15----select * from users where email='admin@admin.com' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
+2021-12-08 11:13:26----select * from users where email='applicant' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
+2021-12-08 11:14:57----select * from users where email='admin@admin.com' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
+2021-12-08 11:16:08----select * from users where email='admin@admin.com' and password='4124bc0a9335c27f086f24ba207a4912' and status='1'
+2021-12-08 11:17:42----select * from users where email='admin@admin.com' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
+2021-12-09 22:16:33----insert into  (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_57_48.png')
+2021-12-09 22:16:33----insert into  (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_57_11.png')
+2021-12-09 22:16:33----insert into  (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_55_22.png')
+2021-12-09 22:16:34----insert into  (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-indexNew-php-2021-12-06-17_44_10.png')
+2021-12-09 22:17:53----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_57_48.png')
+2021-12-09 22:17:53----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_57_11.png')
+2021-12-09 22:17:53----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_55_22.png')
+2021-12-09 22:17:53----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-indexNew-php-2021-12-06-17_44_10.png')
+2021-12-09 22:27:58----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglejpg')
+2021-12-09 22:32:04----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile12-09-2021-223204 PM.jpg')
+2021-12-09 22:32:52----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-32-52 PM.jpg')
+2021-12-09 22:37:38----insert into applications (`user_id`,`applicant_name`,`nic`,`mobile_number`,`parent_name`,`additional_comments`) value ('1','asad','12121212','','asadasaasa','asad')
+2021-12-09 22:37:38----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-37-38.jpg')
+2021-12-09 22:37:38----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/screencapture-budgetparcel-local-index-php-2021-12-06-21_57_48file09-12-2021-22-37-38.png')
+2021-12-09 22:37:38----insert into application_detail (`application_id`,`name`,`age`,`education`) value ('13','asad','11','asad')
+2021-12-09 22:42:46----insert into applications (`user_id`,`applicant_name`,`nic`,`mobile_number`,`parent_name`,`additional_comments`) value ('1','asad','12121211212121','','','')
+2021-12-09 22:42:46----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-42-46.jpg')
+2021-12-09 22:42:46----insert into application_detail (`application_id`,`name`,`age`,`education`) value ('14','','','')
+2021-12-09 22:43:09----insert into applications (`user_id`,`applicant_name`,`nic`,`mobile_number`,`parent_name`,`additional_comments`) value ('1','Asad Bhatti','1111111111','','','')
+2021-12-09 22:43:09----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-43-09.jpg')
+2021-12-09 22:43:09----insert into application_detail (`application_id`,`name`,`age`,`education`) value ('15','','','')
+2021-12-09 22:51:11----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-51-11.jpg')

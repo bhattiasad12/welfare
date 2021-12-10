@@ -1,36 +1,36 @@
 <?php
 
-	//require_once('config.php');
+//require_once('config.php');
 
 
-function login($email , $password){
+function login($email, $password)
+{
 
 
-		error_log("--- before connection ---");
-		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	error_log("--- before connection ---");
+	$con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-		error_log("--- after connection ---");
+	error_log("--- after connection ---");
 
-		$sql = "select * from users where email='$email' and password='$password' and status='1'";
+	$sql = "select * from users where email='$email' and password='$password' and status='1'";
 
-		//echo $sql;
-		QueryLog($sql);
-		$rs = mysqli_query($con,$sql);
-		$count = mysqli_num_rows($rs);
+	//echo $sql;
+	QueryLog($sql);
+	$rs = mysqli_query($con, $sql);
+	$count = mysqli_num_rows($rs);
 
-		$row = mysqli_fetch_array($rs);
-
-
-		return $row;
+	$row = mysqli_fetch_array($rs);
 
 
+	return $row;
 }
 
-function getTreeControl($user_id){
+function getTreeControl($user_id)
+{
 
-		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	$con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-		$sql = "SELECT treecontrol.* FROM 
+	$sql = "SELECT treecontrol.* FROM 
 						user_groups ,  menu_rights , treecontrol
 			WHERE user_id = '$user_id'
 			
@@ -38,51 +38,52 @@ function getTreeControl($user_id){
 			AND treecontrol.id = menu_rights.menu_id;";
 
 
-		//echo $sql;
-		//die();
-		QueryLog($sql);
-		$rs = mysqli_query($con,$sql);
-		$count = mysqli_num_rows($rs);
+	//echo $sql;
+	//die();
+	QueryLog($sql);
+	$rs = mysqli_query($con, $sql);
+	$count = mysqli_num_rows($rs);
 
 
-		$result = array();
-		for($i=0;$i<$count;$i++){
+	$result = array();
+	for ($i = 0; $i < $count; $i++) {
 
-			$result[] = mysqli_fetch_array($rs);
-		}
-		
+		$result[] = mysqli_fetch_array($rs);
+	}
 
-		//print_r($result);
-		return $result;
+
+	//print_r($result);
+	return $result;
 }
 
-function GetData($sql){
+function GetData($sql)
+{
 
-$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-
-
-		QueryLog($sql);
-		$rs = mysqli_query($con,$sql);
-		$count = mysqli_num_rows($rs);
+	$con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 
-		$result = array();
-		for($i=0;$i<$count;$i++){
-
-			$result[] = mysqli_fetch_array($rs);
-		}
+	QueryLog($sql);
+	$rs = mysqli_query($con, $sql);
+	$count = mysqli_num_rows($rs);
 
 
+	$result = array();
+	for ($i = 0; $i < $count; $i++) {
 
-		
+		$result[] = mysqli_fetch_array($rs);
+	}
 
-		//print_r($result);
-		return $result;
 
+
+
+
+	//print_r($result);
+	return $result;
 }
-function UpdateProfileData($user_id,$name,$email,$phone){
-    //  echo "in function ";
-	$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+function UpdateProfileData($user_id, $name, $email, $phone)
+{
+	//  echo "in function ";
+	$con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	$sql = " UPDATE 
 	users 
   SET
@@ -92,73 +93,72 @@ function UpdateProfileData($user_id,$name,$email,$phone){
   WHERE users.`user_id` = '$user_id' ;
   
   ";
-	 echo $sql;
-	 
-			$rs = mysqli_query($con,$sql);
-			$count = mysqli_num_rows($rs);
-	
-	
-			$result = array();
-			for($i=0;$i<$count;$i++){
-	
-				$result[] = mysqli_fetch_array($rs);
-			}
-	
-           // print_r($result);
-			return $result;
-	
-	}
-	function AddUsers($userInfo){
+	echo $sql;
 
-		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	$rs = mysqli_query($con, $sql);
+	$count = mysqli_num_rows($rs);
+
+
+	$result = array();
+	for ($i = 0; $i < $count; $i++) {
+
+		$result[] = mysqli_fetch_array($rs);
+	}
+
+	// print_r($result);
+	return $result;
+}
+function AddUsers($userInfo)
+{
+
+	$con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	$sql = "INSERT INTO `users` (`email`,`password`,`name`,`user_type`) VALUE ('$userInfo[emailAddress]','$userInfo[pass]','$userInfo[userId]','$userInfo[usersType]')";
-	 
-	 		QueryLog($sql);
-			$rs = mysqli_query($con,$sql);
-			return true;
-    
-	}
 
-	function AddData($table, $data){
+	QueryLog($sql);
+	$rs = mysqli_query($con, $sql);
+	return true;
+}
 
-		$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+function AddData($table, $data)
+{
 
-		$keys = "";
-		$values = "";
-		$ch = "";
-		foreach($data as $key => $value){
+	$con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-			$keys .= $ch."`$key`";
-			$values .= $ch."'$value'";
-			$ch = ",";
-		}
+	$keys = "";
+	$values = "";
+	$ch = "";
+	foreach ($data as $key => $value) {
 
-
-		$sql = "insert into $table ($keys) value ($values)";
-
-		/////////////////echo  $sql;
-		$rs = mysqli_query($con,$sql);
-		$id = mysqli_insert_id($con);
-		return $id;
-
+		$keys .= $ch . "`$key`";
+		$values .= $ch . "'$value'";
+		$ch = ",";
 	}
 
 
-	function LogMsg($msg){
+	$sql = "insert into $table ($keys) value ($values)";
 
-		//die(LOG_PATH);
-		$date = date("Y-m-d H:i:s");
-		error_log($date."----".$msg."\r\n",3,LOG_PATH);
-		
+	QueryLog($sql);
+	/////////////////echo  $sql;
+	$rs = mysqli_query($con, $sql);
+	$id = mysqli_insert_id($con);
+	return $id;
+}
 
-	}
 
-	function QueryLog($msg){
+function LogMsg($msg)
+{
 
-		//die(LOG_PATH);
-		$date = date("Y-m-d H:i:s");
-		$fp = fopen(QUERY_LOG_PATH, "a");
-		fwrite($fp, $date."----".$msg."\r\n");
-		fclose($fp);
+	//die(LOG_PATH);
+	$date = date("Y-m-d H:i:s");
+	error_log($date . "----" . $msg . "\r\n", 3, LOG_PATH);
+}
 
-	}
+function QueryLog($msg)
+{
+
+	//die(LOG_PATH);
+	$date = date("Y-m-d H:i:s");
+	$fp = fopen(QUERY_LOG_PATH, "a");
+	fwrite($fp, $date . "----" . $msg . "\r\n");
+	fclose($fp);
+}

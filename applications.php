@@ -18,7 +18,7 @@
   <head>
     <style>
       @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-    }
+    
     @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
     .fa-2x {
       font-size: 2em;
@@ -160,7 +160,7 @@
     require_once("treecontrol.php");
 
     ?>
-    <form action="action/add_application.php" method="POST">
+    <form action="action/add_application.php" method="POST" enctype="multipart/form-data">
       <div class='row'>
 
         <?php 
@@ -185,6 +185,10 @@
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
           <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Document upload</label><br>
+          <input type="file" name="userFile[]" id="userFile[]" multiple>
         </div>
 
         <div class="mb-3">

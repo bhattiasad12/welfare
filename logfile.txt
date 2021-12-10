@@ -1011,3 +1011,235 @@
 2021-12-06 15:55:15---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
 2021-12-06 15:55:15---- ---login function return ----
 2021-12-06 15:55:15---- USER Successfully login --- 1
+2021-12-08 11:12:55---- ------ index file included ---- 
+2021-12-08 11:13:26---- --- here in do login ----
+2021-12-08 11:13:26---- --- EMAIL :: applicant , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-08 11:13:26---- ---login function return ----
+2021-12-08 11:13:26---- USER Successfully login --- 4
+2021-12-08 11:13:50---- ------ index file included ---- 
+2021-12-08 11:13:55---- ------ index file included ---- 
+2021-12-08 11:13:58---- ------ index file included ---- 
+2021-12-08 11:14:30---- ------ index file included ---- 
+2021-12-08 11:14:57---- --- here in do login ----
+2021-12-08 11:14:57---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-08 11:14:57---- ---login function return ----
+2021-12-08 11:14:57---- USER Successfully login --- 1
+2021-12-08 11:15:59---- ------ index file included ---- 
+2021-12-08 11:16:02---- ------ index file included ---- 
+2021-12-08 11:16:08---- --- here in do login ----
+2021-12-08 11:16:08---- --- EMAIL :: admin@admin.com , PASSWORD :: 4124bc0a9335c27f086f24ba207a4912 ----
+2021-12-08 11:16:08---- ---login function return ----
+2021-12-08 11:16:08---- USER Successfully login --- 1
+2021-12-08 11:17:12---- ------ index file included ---- 
+2021-12-08 11:17:22---- ------ index file included ---- 
+2021-12-08 11:17:42---- --- here in do login ----
+2021-12-08 11:17:42---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-08 11:17:42---- ---login function return ----
+2021-12-08 11:17:42---- USER Successfully login --- 1
+2021-12-08 11:29:00---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:30:59---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:31:02---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:31:03---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:31:29---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:34:16---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:35:27---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:36:23---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:43:13---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:43:25---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:43:58---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:44:38---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:44:43---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:44:50---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:46:59---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:48:15---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:48:18---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:48:21---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:50:52---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:50:57---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:51:43---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:52:07---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:55:03---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:55:20---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:56:04---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:56:11---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:56:23---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:57:01---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:57:04---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 11:58:12---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 11:59:53---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:00:07---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:00:16---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:01:02---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:01:21---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:02:12---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:07:46---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:08:46---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:11:02---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:11:04---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:12:04---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:12:37---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:12:37---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:12:41---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:12:48---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:12:48---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:12:53---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:13:14---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:13:21---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:13:27---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:13:39---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:13:47---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:15:55---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:16:16---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:16:17---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:16:45---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:16:47---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:16:47---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:16:50---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:16:52---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:16:52---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:17:28---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:17:31---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:17:31---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:17:31---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:17:38---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:18:39---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:18:52---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:19:27---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:19:30---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:20:34---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:20:37---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:20:43---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:21:37---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:21:38---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:21:40---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:21:51---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:21:58---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:23:18---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:23:33---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:24:37---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:24:45---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:24:51---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:25:49---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:25:52---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:26:02---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:26:11---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:26:16---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:27:00---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:27:02---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:27:05---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:27:13---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:27:13---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:27:13---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:27:19---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:27:31---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:27:31---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:27:31---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:28:08---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:28:08---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-08 12:28:08---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:29:35---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:29:44---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:32:13---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:32:16---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:32:26---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:33:57---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:34:09---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:35:52---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:36:19---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:36:25---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:37:56---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:38:05---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:38:09---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:38:11---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:39:03---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:39:42---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:39:50---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:40:56---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:40:59---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:41:03---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:41:11---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:43:30---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:43:35---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:43:43---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:44:26---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:44:29---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:44:34---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:44:56---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:45:01---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:45:18---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:46:23---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:46:25---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:46:32---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 12:47:23---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 12:47:35---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:15:11---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:15:43---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:15:54---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:19:17---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:24:07---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:24:07---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:24:16---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:24:40---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:24:44---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:24:50---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:25:19---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:25:21---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:25:36---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:28:49---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:28:58---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:29:44---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:29:48---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:29:50---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:30:30---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:31:20---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:31:22---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:32:00---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:32:02---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:32:08---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-08 13:33:03---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-08 13:33:05---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:01:00---- ------ index file included ---- 
+2021-12-09 22:01:05---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:03:40---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:12:49---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:12:57---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:13:13---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:15:17---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:16:23---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:16:34---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:17:38---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:17:40---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:17:53---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:23:06---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:23:08---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:27:43---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:27:45---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:27:58---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:28:32---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:28:34---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:28:41---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:29:15---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:29:17---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:29:25---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:31:51---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:31:54---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:32:04---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:32:43---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:32:45---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:32:52---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:34:45---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:34:48---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:35:57---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:37:38---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:37:38---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-09 22:37:38---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:39:37---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:42:29---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:42:46---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:42:46---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-09 22:42:46---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:43:09---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-09 22:43:09---- ------ Valiidation failed  userid :1--, user_name:Admin
+2021-12-09 22:43:09---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:51:02---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-09 22:51:11---- ------ Here, in ACTION  :1--, user_name:Admin
