@@ -1537,3 +1537,15 @@
 			
 			AND menu_rights.group_id = user_groups.group_id 			 
 			AND treecontrol.id = menu_rights.menu_id;
+2021-12-10 11:24:25----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;
+2021-12-10 11:24:31----SELECT treecontrol.* FROM 
+						user_groups ,  menu_rights , treecontrol
+			WHERE user_id = '1'
+			
+			AND menu_rights.group_id = user_groups.group_id 			 
+			AND treecontrol.id = menu_rights.menu_id;

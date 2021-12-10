@@ -1243,3 +1243,14 @@
 2021-12-09 22:43:09---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
 2021-12-09 22:51:02---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
 2021-12-09 22:51:11---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-10 11:23:57---- ------ index file included ---- 
+2021-12-10 11:24:08---- --- here in do login ----
+2021-12-10 11:24:08---- --- EMAIL :: admin , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-10 11:24:08---- ---login function return ----
+2021-12-10 11:24:25---- --- here in do login ----
+2021-12-10 11:24:25---- --- EMAIL :: admin@admin.com , PASSWORD :: e10adc3949ba59abbe56e057f20f883e ----
+2021-12-10 11:24:25---- ---login function return ----
+2021-12-10 11:24:25---- USER Successfully login --- 1
+2021-12-10 11:24:31---- ------ Here, in Applicaton screen ---- userid :1--, user_name:Admin
+2021-12-10 11:26:18---- ------ Here, in ACTION  :1--, user_name:Admin
+2021-12-10 11:29:15---- ------ Here, in ACTION  :1--, user_name:Admin

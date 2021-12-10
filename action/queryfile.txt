@@ -33,3 +33,7 @@
 2021-12-09 22:43:09----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-43-09.jpg')
 2021-12-09 22:43:09----insert into application_detail (`application_id`,`name`,`age`,`education`) value ('15','','','')
 2021-12-09 22:51:11----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile09-12-2021-22-51-11.jpg')
+2021-12-10 11:24:08----select * from users where email='admin' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
+2021-12-10 11:24:25----select * from users where email='admin@admin.com' and password='e10adc3949ba59abbe56e057f20f883e' and status='1'
+2021-12-10 11:26:18----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile10-12-2021-11-26-18.jpg')
+2021-12-10 11:29:15----insert into `uploads` (`userid`,`url`) value ('1','C:/xampp/htdocs/welfare/uploads/junglefile10-12-2021-11-29-15.jpg')

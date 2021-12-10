@@ -5,17 +5,22 @@ require_once("../functions.php");
 
 // echo "<pre>";
 // print_r($_FILES);
+// die();
+
 
 $userid =  $_SESSION['user_id'];
+// echo "<pre>";
+// print_r($_SESSION);
 
-
+// die();
 
 for ($i = 0; $i < count($_FILES['userFile']['name']); $i++) {
 
 	$info = pathinfo($_FILES['userFile']['name'][$i]);
+
 	$ext = $info['extension'];
 	$filename = $info['filename'];
-	$date = "file".date('d-m-Y-H-i-s');
+	$date = date('d-m-Y-H-i-s');
 	$newName = $filename.$date.".".$ext;
 	$target = DOCUMENT_ROOT . 'uploads/' . $newName;
 
