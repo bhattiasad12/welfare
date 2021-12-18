@@ -23,6 +23,8 @@ vendor/
 # Maven
 target/
 dist/
+uploads/
+config.php
 
 # JetBrains IDE
 .idea/

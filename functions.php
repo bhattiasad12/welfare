@@ -1,6 +1,6 @@
 <?php
 
-//require_once('config.php');
+require_once('config.php');
 
 
 function login($email, $password)
@@ -72,12 +72,7 @@ function GetData($sql)
 
 		$result[] = mysqli_fetch_array($rs);
 	}
-
-
-
-
-
-	//print_r($result);
+	
 	return $result;
 }
 function UpdateProfileData($user_id, $name, $email, $phone)
